@@ -1,0 +1,102 @@
+
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    color: navy;
+  
+   
+  }
+  .head{
+    font-size: 40px !important;
+  }
+  
+  button {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: rgb(15, 170, 57);
+    color: white;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: green;
+    outline: none;
+  }
+  
+  h2 {
+    color: navy;
+  }
+  
+  .post-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .post-item h3 {
+    margin: 0;
+    color: navy;
+  }
+  
+  .post-item p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .post-item button {
+    margin-right: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form .form-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form .form-group label {
+    width: 80px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  form .form-group input,
+  form .form-group textarea {
+    flex: 1;
+  }
+  
